@@ -25,10 +25,6 @@ const port = process.env.PORT || 8000;
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/todo", todoRoute);
 
-app.get("/", (req, res) => {
-  res.send("Hello, From the Server!!!");
-});
-
 // Static Files
 app.use(express.static(path.join(__dirname, "./client/dist")));
 
