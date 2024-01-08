@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "dev": "concurrently \"npm run start\" \"cd.. && cd client && npm run dev\""
+    "dev": "concurrently \"npm run start\" \"cd client && npm run dev\""
   },
   "keywords": [],
   "author": "Ahmad Siddiqui",
